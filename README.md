@@ -1,4 +1,4 @@
-Little Lemon – Table Reservation System
+# Little Lemon – Table Reservation System
 
 ![Sceenshot](public/screenshot.png)
 
@@ -13,29 +13,29 @@ Key Features
 
     Instant Confirmation: A dynamic transition system that displays a success summary upon completion without requiring a page reload.
 
-Getting Started
+## Getting Started
 
 To run this project locally, ensure you have Node.js installed on your system.
 Installation
 
-# Clone the repository and install dependencies
+### Clone the repository and install dependencies
 
-npm install
+    npm install
 
-Execution
+## Execution
 
-# Start the development server
+### Start the development server
 
-npm start
+    npm start
 
 The application will be available at http://localhost:3000.
 
-Production Build
+## Production Build
 
-# Create an optimized production build
-npm run build
+### Create an optimized production build
+    npm run build
 
-Future Roadmap
+## Future Roadmap
 
     API Integration: Connect the frontend to a backend service for real-time seat availability checks.
 
