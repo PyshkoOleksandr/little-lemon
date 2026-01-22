@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 2rem 4rem;
+  background-color: transparent;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 3rem;
+}
+
+.link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  transition: var(--transition);
+}
+
+.link:hover, .active {
+  color: var(--accent-gold);
+}
