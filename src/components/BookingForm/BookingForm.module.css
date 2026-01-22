@@ -1,0 +1,96 @@
+.container {
+  background-color: var(--bg-surface);
+  padding: 3rem;
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid rgba(197, 160, 89, 0.2);
+  border-radius: 0; 
+}
+
+.visualHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  color: var(--accent-gold);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.input, .select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  padding: 0.8rem 0;
+  font-size: 1rem;
+  outline: none;
+  transition: var(--transition);
+}
+
+.input:focus {
+  border-bottom: 1px solid var(--accent-gold);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.mainButton {
+  position: relative;
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--accent-gold);
+  padding: 1.2rem;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 2rem;
+  transition: var(--transition);
+}
+
+.mainButton:hover {
+  background-color: var(--accent-gold);
+  color: var(--bg-dark);
+}
+
+.buttonLine {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: var(--transition);
+}
+
+.mainButton:hover .buttonLine {
+  width: 100%;
+}

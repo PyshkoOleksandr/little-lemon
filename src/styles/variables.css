@@ -1,0 +1,16 @@
+:root {
+  /* Колірна палітра "Midnight Gold" */
+  --bg-dark: #121212;
+  --bg-surface: #1e1e1e;
+  --accent-gold: #c5a059;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --error: #ff4d4d;
+  
+  /* Шрифти */
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  
+  /* Переходи */
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
